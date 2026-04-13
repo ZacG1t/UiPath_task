@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Uo2oiKC9Vk-JdqDDiDgaEQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dosm.gov.my/portal-main/time-series" DesignTimeRectangle="127, 780, 1627, 80" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='acd-heading' parentid='content' tag='A' type='' aaname='Malaysia Economic Statistics - Time Series 2019' check:innerText='Malaysia Economic Statistics - Time Series 2019' /&gt;" Guid="23f3c22a-40c1-4cf5-adf5-3e1ee892cd86" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Department of Statistics Malaysia' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9fef5f07576d8dfb4e5801f70579beaa.png" xmlns="">0fUMuGY6U-EqNvijvbKBspg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

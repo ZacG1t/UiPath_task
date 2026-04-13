@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mhUZl8ER9Em_sz-KN6-kgg" Reference="ISZ3BqYsZk6v2klIxIQTcg/ccUZVXXvVEedxhiLl9t6hQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="teams.cloud.microsoft" DesignTimeRectangle="1525, 881, 28, 28" DesignTimeScaleFactor="1.25" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='IMG' class='' aaname='' /&gt;" Guid="15e34fe2-2112-498d-9f7a-32f74f7cd2b2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Department of Statistics Malaysia' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="256, 868, 1259, 51" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='' tag='TD' aaname='Labour force by marital status, Malaysia/states, 1982 - 2024' check:innerText='Labour force by marital status, Malaysia/states, 1982 - 2024' /&gt;" Guid="c70b6b02-e921-435d-8889-2fabc6857c0b" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c7a2f070012d77b77fbae79774a83b52.png" xmlns="">0P1e8IoAcpEqhJlbEw-XPdA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

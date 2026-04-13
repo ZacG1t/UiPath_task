@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Labour Force Survey (LF…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "L2kF-OKtZkmOF6usXIuIpA",
+  "Reference": "ISZ3BqYsZk6v2klIxIQTcg/L2kF-OKtZkmOF6usXIuIpA",
+  "ParentRef": "ISZ3BqYsZk6v2klIxIQTcg/RLg-LpF-f0ym7dUcEwpqnA",
+  "Created": "2026-04-10T06:57:59.8104023Z",
+  "Updated": "2026-04-10T06:57:59.8104023Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.18.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

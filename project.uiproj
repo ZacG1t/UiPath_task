@@ -1,0 +1,6 @@
+{
+  "Name": "Task",
+  "ProjectType": "Process",
+  "Description": "Compile and clean DOSM data",
+  "MainFile": "Main.xaml"
+}

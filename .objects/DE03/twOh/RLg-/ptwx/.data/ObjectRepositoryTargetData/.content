@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qvzxcFYHUkOiJMMk8eVIcA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dosm.gov.my/portal-main/time-series" DesignTimeRectangle="14, 333, 1878, 182" DesignTimeScaleFactor="1.25" FuzzySelectorArgument="&lt;webctrl parentid='content' tag='SECTION' type='' class='page-title small gray-bg' aaname='    ' check:innerText='Time Series Data&amp;#xA; Home  Statistics  Time Series Data&amp;#xA;Share this page:&amp;#xA;21&amp;#xA;Shares' /&gt;" Guid="f3889334-1432-4d98-84e4-3065d5420941" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Department of Statistics Malaysia' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="483c02bcbd4b4177956d524de6a27583.png" xmlns="">0RSMcRxNOXUefRKgd9c_TNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oxe79bbxF0WSGbKwhgqn8A" Reference="ISZ3BqYsZk6v2klIxIQTcg/iOyZWmLp40KbotZbL4-3Hw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dosm.gov.my/portal-main/release-content/demographic-statistic-malaysia-fourth-quarter-2025" DesignTimeRectangle="1444, 627, 348, 26" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Time Series Data' tag='H6' /&gt;" Guid="f97b82f3-22a3-4e98-8c75-cb7453efbbdf" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Department of Statistics Malaysia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1444, 585, 348, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='mt-4' tag='H4' type='' aaname='Other Publication' check:innerText='Other Publication' /&gt;" Guid="4d0efd79-523b-4a01-9763-5f4d30348098" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b38c2a3c4281a446cc71c0f93ff7b5c6.png" xmlns="">0IZQLt8bl4kOp1QYiHQoddA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

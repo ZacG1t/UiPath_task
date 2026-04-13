@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_mYiCj_aBk2cYgEmsTkSOg" Reference="ISZ3BqYsZk6v2klIxIQTcg/_f7uUKLLLUu63TFk8weGWA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dosm.gov.my/portal-main/home" DesignTimeRectangle="700, 322, 253, 0" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Population &amp;amp; Demography' tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Population &amp;amp; Demography' tag='H3' type='' class='' check:innerText='Population &amp;amp; Demography' /&gt;" Guid="d77f85c9-04ce-4b68-b035-d63c26a5df1c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Department of Statistics Malaysia' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="700, 560, 253, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Population &amp;amp; Demography' tag='H3' type='' class='' check:innerText='Population &amp;amp; Demography' /&gt;" Guid="e12a3410-da8a-490a-a1df-6b2bbff406dd" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="959ff42922dfe57e797da8aadf2cfcc1.png" xmlns="">0n3w6GbJ4QUqz3UBmO86CfQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

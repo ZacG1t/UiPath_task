@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NDMHRevoOkac6cuDWnn60Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dosm.gov.my/portal-main/time-series" DesignTimeRectangle="1575, 814, 28, 28" DesignTimeScaleFactor="1.25" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl src='/admin/images/excel.png' type='' tag='IMG' class='' aaname='' /&gt;" Guid="3f21f71e-c293-46dc-bf05-b3a4b453dbfb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Department of Statistics Malaysia' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="256, 801, 1259, 51" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='' tag='TD' aaname='Labour force by marital status, Malaysia/states, 1982 - 2024' check:innerText='Labour force by marital status, Malaysia/states, 1982 - 2024' /&gt;" Guid="5be65846-2172-442d-a4c1-b7e6efa5e352" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f9a9a5d80c2b2ab5a5cf1f03dc0854c4.png" xmlns="">0VKTiBuu7WECw99HhsIQdgw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

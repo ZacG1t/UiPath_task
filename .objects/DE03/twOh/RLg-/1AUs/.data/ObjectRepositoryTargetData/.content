@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Hi20VQA2PkmGeJAUK9Lw3A" Reference="ISZ3BqYsZk6v2klIxIQTcg/1AUsSQ2H9kiwmB7rc_lptg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dosm.gov.my/portal-main/time-series" DesignTimeRectangle="1525, 723, 28, 22" DesignTimeScaleFactor="1.25" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl href='/admin/images/icon/contentdoc_pdf20250822115351.pdf' tag='A' class='' /&gt;" Guid="7083f443-7a22-4172-a17e-4759865cf839" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Department of Statistics Malaysia' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="256, 709, 1259, 51" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='' tag='TD' aaname='Labour force by marital status, Malaysia/states, 1982 - 2024' check:innerText='Labour force by marital status, Malaysia/states, 1982 - 2024' /&gt;" Guid="f9da8f7f-600c-482a-84c9-fae2bf7ecafe" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1acfe15341d28b2c706d3a4e47a26491.png" xmlns="">0Cbd0PeM5mkOu8qaGs74cKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

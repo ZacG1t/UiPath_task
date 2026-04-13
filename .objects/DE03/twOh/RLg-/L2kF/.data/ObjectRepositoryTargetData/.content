@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_A5HAsnBkUqNbEET79IWnQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dosm.gov.my/portal-main/time-series" DesignTimeRectangle="127, 496, 1627, 80" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Labour Force Survey (LFS) Time Series Statistics by State, 1982 - 2024' class='acd-heading' parentid='content' tag='A' type='' check:innerText='Labour Force Survey (LFS) Time Series Statistics by State, 1982 - 2024' /&gt;" Guid="8eb0ea2c-6ea7-4efa-938a-f51995b0e40d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Department of Statistics Malaysia' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2cc8a03a2a280cdc72565d891c2609c7.png" xmlns="">0CKg7A_TzUkOskTsFw_mvJQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

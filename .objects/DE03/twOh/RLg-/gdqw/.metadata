@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'Demographic Statistic M…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "gdqwDScb6kuUuvsiyDC1lw",
+  "Reference": "ISZ3BqYsZk6v2klIxIQTcg/gdqwDScb6kuUuvsiyDC1lw",
+  "ParentRef": "ISZ3BqYsZk6v2klIxIQTcg/RLg-LpF-f0ym7dUcEwpqnA",
+  "Created": "2026-04-10T07:29:53.9518955Z",
+  "Updated": "2026-04-10T07:29:53.9518955Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.18.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

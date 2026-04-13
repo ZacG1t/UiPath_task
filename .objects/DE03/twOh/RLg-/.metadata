@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Department of Statistics Malaysia",
+  "Type": "Screen",
+  "Id": "RLg-LpF-f0ym7dUcEwpqnA",
+  "Reference": "ISZ3BqYsZk6v2klIxIQTcg/RLg-LpF-f0ym7dUcEwpqnA",
+  "ParentRef": "ISZ3BqYsZk6v2klIxIQTcg/twOhl8uVC0eJvaMAeQ6x0A",
+  "Created": "2026-04-10T06:54:36.2411758Z",
+  "Updated": "2026-04-10T06:54:36.2411758Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.18.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tTjMOnkby0ijzjsYYQMQ0A" Reference="ISZ3BqYsZk6v2klIxIQTcg/seUqIT-6G0y_T9DwQyZmUw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dosm.gov.my/portal-main/release-subthemes/population-and-demography" DesignTimeRectangle="1262, 458, 530, 312" DesignTimeScaleFactor="1.25" FuzzySelectorArgument="&lt;webctrl class='themes-img' type='' parentid='w0' tag='DIV' aaname='' /&gt;" Guid="a7cc5453-ba9f-453e-9114-ed7a7e01f07a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Department of Statistics Malaysia' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1292, 800, 470, 65" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Demographic ' tag='H5' type='' class='maintitle' check:innerText='Demographic' /&gt;" Guid="28098dfa-caae-445c-bbb3-aa7f0478c5aa" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b2e53b5ad991d1908942c6e925d508b6.png" xmlns="">0Hloog8ge6UW_f9vd_Infzg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

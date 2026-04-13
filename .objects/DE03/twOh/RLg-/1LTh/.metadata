@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Malaysia Economic Stati…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "1LThK9izN0WPSc3-RIIdgg",
+  "Reference": "ISZ3BqYsZk6v2klIxIQTcg/1LThK9izN0WPSc3-RIIdgg",
+  "ParentRef": "ISZ3BqYsZk6v2klIxIQTcg/RLg-LpF-f0ym7dUcEwpqnA",
+  "Created": "2026-04-10T07:27:30.7154039Z",
+  "Updated": "2026-04-10T07:27:30.7154039Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.18.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

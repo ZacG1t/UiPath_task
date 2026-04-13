@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Labour force by marital…(2)",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "1AUsSQ2H9kiwmB7rc_lptg",
+  "Reference": "ISZ3BqYsZk6v2klIxIQTcg/1AUsSQ2H9kiwmB7rc_lptg",
+  "ParentRef": "ISZ3BqYsZk6v2klIxIQTcg/RLg-LpF-f0ym7dUcEwpqnA",
+  "Created": "2026-04-10T07:14:03.9869485Z",
+  "Updated": "2026-04-10T08:04:43.5928817Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.18.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

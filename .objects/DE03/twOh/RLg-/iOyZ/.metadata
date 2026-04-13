@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Time Series Data",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "iOyZWmLp40KbotZbL4-3Hw",
+  "Reference": "ISZ3BqYsZk6v2klIxIQTcg/iOyZWmLp40KbotZbL4-3Hw",
+  "ParentRef": "ISZ3BqYsZk6v2klIxIQTcg/RLg-LpF-f0ym7dUcEwpqnA",
+  "Created": "2026-04-10T08:08:35.4959846Z",
+  "Updated": "2026-04-13T03:16:45.8178948Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.18.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

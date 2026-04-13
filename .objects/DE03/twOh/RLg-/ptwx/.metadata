@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Element 'Time Series Data Home S…'",
+  "Type": "Element",
+  "Id": "ptwxHO_-8kCnXZx1qImaJw",
+  "Reference": "ISZ3BqYsZk6v2klIxIQTcg/ptwxHO_-8kCnXZx1qImaJw",
+  "ParentRef": "ISZ3BqYsZk6v2klIxIQTcg/RLg-LpF-f0ym7dUcEwpqnA",
+  "Created": "2026-04-10T09:05:53.8002555Z",
+  "Updated": "2026-04-10T09:05:53.8002555Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.18.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

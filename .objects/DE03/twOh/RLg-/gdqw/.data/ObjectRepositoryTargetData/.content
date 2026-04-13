@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uqrzuA9ne06OkMdo50jPtg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dosm.gov.my/portal-main/release-content/demographic-statistic-malaysia-fourth-quarter-2025" DesignTimeRectangle="127, 585, 1665, 40" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='content' tag='H3' class='' aaname='Demographic Statistic Malaysia, Fourth Quarter 2025 ' check:innerText='Demographic Statistic Malaysia, Fourth Quarter 2025' /&gt;" Guid="7a4008e1-cfb2-4298-ac70-d05db45f2de9" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Department of Statistics Malaysia' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c76ce1816158d63d2fe6bf145f5c1bc9.png" xmlns="">0eVuYUzI4akaZJuz-YJ_cHg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
