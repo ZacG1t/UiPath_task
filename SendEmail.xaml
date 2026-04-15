@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="SendEmail" this:SendEmail.in_MailTo="teolun@cognitive.com.my" this:SendEmail.in_Subject="Testing" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:umae="clr-namespace:UiPath.Mail.Activities.Enums;assembly=UiPath.Mail.Activities" xmlns:umame="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Enums;assembly=UiPath.Mail.Activities" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="SendEmail" this:SendEmail.in_MailTo="teolun@cognitive.com.my" this:SendEmail.in_Subject="Testing" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uascw="clr-namespace:UiPath.Activities.System.Compression.Workflow;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:umae="clr-namespace:UiPath.Mail.Activities.Enums;assembly=UiPath.Mail.Activities" xmlns:umame="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Enums;assembly=UiPath.Mail.Activities" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="in_MailTo" Type="InArgument(x:String)" />
     <x:Property Name="in_Subject" Type="InArgument(x:String)" />
@@ -48,6 +48,9 @@
       <x:String>System.Runtime.Serialization</x:String>
       <x:String>UiPath.Platform</x:String>
       <x:String>UiPath</x:String>
+      <x:String>UiPath.Activities.System.Compression.Zip</x:String>
+      <x:String>UiPath.Activities.System.Encode</x:String>
+      <x:String>UiPath.Activities.System.Compression.Workflow</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -105,12 +108,17 @@
       <AssemblyReference>UiPath.System.Activities.Api</AssemblyReference>
       <AssemblyReference>UiPath.Interop</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="SendEmail" sap:VirtualizedContainerService.HintSize="949.2,756" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="SendEmail" sap:VirtualizedContainerService.HintSize="949.2,1004" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="[&quot;C:\Users\Zhe Lun\Cognitive\Task\Data\Input\contentdoc_pdf_20250822115351.pdf&quot;]" Name="ReportPath" />
       <Variable x:TypeArguments="x:String" Default="[&quot;C:\Users\Zhe Lun\Cognitive\Task\Data\Output\Report.xlsx&quot;]" Name="ExcelPath" />
+      <Variable x:TypeArguments="si:FileInfo" Name="TaskZip" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -118,6 +126,13 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="449.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Sending Email to &quot; + in_MailTo]" />
+    <uascw:CompressFiles CompressedResource="{x:Null}" Password="{x:Null}" ResourcesToArchive="{x:Null}" SecurePassword="{x:Null}" AllowDuplicateContentNames="False" CodePage="Default" CompressedFileInfo="[TaskZip]" CompressedFileName="Task.zip" CompressionLevel="Normal" DisplayName="Compress/Zip Files" EncryptionAlgorithm="Classic" sap:VirtualizedContainerService.HintSize="449.6,248" sap2010:WorkflowViewState.IdRef="CompressFiles_1" OverrideExistingFile="True">
+      <uascw:CompressFiles.ContentToArchive>
+        <scg:List x:TypeArguments="InArgument(x:String)" Capacity="1">
+          <InArgument x:TypeArguments="x:String">C:\Users\Zhe Lun\Cognitive\Task</InArgument>
+        </scg:List>
+      </uascw:CompressFiles.ContentToArchive>
+    </uascw:CompressFiles>
     <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" From="{x:Null}" IgnoreCRL="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" Password="{x:Null}" Port="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" Server="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Action="Forward" AttachmentInputMode="FilePaths" Body="[&quot;&lt;!DOCTYPE html&gt;&quot; &amp; Environment.NewLine &amp; &quot;&lt;html&gt;&quot; &amp; Environment.NewLine &amp; &quot;&lt;head&gt; &lt;style&gt;&quot; &amp; Environment.NewLine &amp; &quot;body {font-family: Arial, sans-serif; line-height: 1.6; color: #333333;}&quot; &amp; Environment.NewLine &amp; &quot;.email-container {padding: 20px;max-width: 600px;margin: 0 auto;border: 1px solid #eeeeee;}&quot; &amp; Environment.NewLine &amp; &quot;.signature {margin-top: 20px;font-weight: bold;}&quot; &amp; Environment.NewLine &amp; &quot;&lt;/style&gt; &lt;/head&gt;&quot; &amp; Environment.NewLine &amp; &quot;&lt;body&gt;&quot; &amp; Environment.NewLine &amp; &quot;&lt;div Class='email-container'&gt;&quot; &amp; Environment.NewLine &amp; &quot;&lt;p&gt;Hi Syahid,&lt;/p&gt;&quot; &amp; Environment.NewLine &amp; &quot;&lt;p&gt;I have completed the task and attached the files as requested.&lt;/p&gt;&quot; &amp; Environment.NewLine &amp; &quot;&lt;p&gt;Regards,&lt;/p&gt;&quot; &amp; Environment.NewLine &amp; &quot;&lt;div Class='signature'&gt;&quot; &amp; Environment.NewLine &amp; &quot;Zhe Lun&quot; &amp; Environment.NewLine &amp; &quot;&lt;/div&gt;&quot; &amp; Environment.NewLine &amp; &quot;&lt;/div&gt;&quot; &amp; Environment.NewLine &amp; &quot;&lt;/body&gt;&quot; &amp; Environment.NewLine &amp; &quot;&lt;/html&gt;&quot;]" ConnectionId="f10dbfba-d6d1-4d20-b1b6-6ef82005ee4b" ConnectionMode="IntegrationService" DisplayName="Send SMTP Email" EnableSSL="True" sap:VirtualizedContainerService.HintSize="449.6,392.8" sap2010:WorkflowViewState.IdRef="SendMail_2" IsBodyHtml="True" SecureConnection="Auto" Subject="[in_Subject]" To="[in_MailTo]" UseISConnection="True" UseRichTextEditor="True">
       <ui:SendMail.AttachmentsBackup>
         <usau:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="FilePaths">
@@ -161,6 +176,7 @@
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
           <InArgument x:TypeArguments="x:String">[ReportPath]</InArgument>
           <InArgument x:TypeArguments="x:String">[ExcelPath]</InArgument>
+          <InArgument x:TypeArguments="x:String">[TaskZip.FullName]</InArgument>
         </scg:List>
       </ui:SendMail.Files>
     </ui:SendMail>
