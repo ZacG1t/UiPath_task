@@ -106,7 +106,7 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="NavToDOSM" sap:VirtualizedContainerService.HintSize="949.2,4206.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="NavToDOSM" sap:VirtualizedContainerService.HintSize="949.2,4515.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="upr:ILocalResource" Name="PDFFile" />
       <Variable x:TypeArguments="upr:ILocalResource" Name="ExcelFile" />
@@ -116,13 +116,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Department of Statistics Malaysia" sap:VirtualizedContainerService.HintSize="558.4,3582.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="9f43105e-9caf-4b40-a712-f7f0fce20654" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Department of Statistics Malaysia" sap:VirtualizedContainerService.HintSize="558.4,3716.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="9f43105e-9caf-4b40-a712-f7f0fce20654" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="524.8,3293.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="524.8,3468" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="PdfURL" />
               <Variable x:TypeArguments="x:String" Name="URL" />
@@ -133,6 +133,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="491.2,176" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Going to DOSM website.&quot;]" />
             <uix:NHover DisplayName="Hover ''Statistics''" sap:VirtualizedContainerService.HintSize="491.2,225.6" sap2010:WorkflowViewState.IdRef="NHover_1" ScopeIdentifier="9f43105e-9caf-4b40-a712-f7f0fce20654" Version="V4">
               <uix:NHover.Target>
                 <uix:TargetAnchorable BrowserURL="dosm.gov.my/portal-main/home" DesignTimeRectangle="873, 286, 129, 25" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Statistics ' parentid='menu' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Statistics ' parentid='menu' tag='A' type='' class='' check:innerText='Statistics' /&gt;" Guid="97fe5218-1422-456d-8db0-160777d0b3ad" InformativeScreenshot="0ed084176d7d383b342bca1c55a5cbd8.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Department of Statistics Malaysia' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
@@ -311,6 +312,7 @@
     <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="558.4,112.8" sap2010:WorkflowViewState.IdRef="CreateDirectory_1" Path="Data\Input" />
     <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="558.4,112.8" sap2010:WorkflowViewState.IdRef="CreateDirectory_2" Path="Data\Output" />
     <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[&quot;Data\Input\&quot;+PDFFile.FullName]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="558.4,192" sap2010:WorkflowViewState.IdRef="MoveFile_2" Overwrite="True" Path="[PDFFile.FullName]" />
-    <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[&quot;Data\Input\&quot;+ExcelFile.FullName]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="558.4,183.2" sap2010:WorkflowViewState.IdRef="MoveFile_3" Overwrite="True" Path="[ExcelFile.FullName]" />
+    <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[&quot;Data\Input\&quot;+ExcelFile.FullName]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="558.4,192" sap2010:WorkflowViewState.IdRef="MoveFile_3" Overwrite="True" Path="[ExcelFile.FullName]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="558.4,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Files moved to Input folder.&quot;]" />
   </Sequence>
 </Activity>
